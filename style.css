@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* Layout projetos */
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    flex: 1 1 250px;
+}
+
+/* Botão dark */
+#darkModeBtn {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Tema claro */
+.light {
+    background: #f1f5f9;
+    color: #0f172a;
+}
